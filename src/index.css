@@ -1,6 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #282D35;
 }
 
 .nav--logo, .nav--icon {
@@ -10,10 +15,51 @@
 
 .nav--logo {
   padding: 25px 10px;
+  background-color: #33373E;
 }
 
 .nav--icon {
   margin-right: auto;
+  color: #fbdc61;
+}
+
+.motto {
+  color: whitesmoke;
+}
+
+.main--container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  color: whitesmoke;
+  background-image: url('./dtown.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right 30%;
+  height: 100vh;
+}
+
+.main--header {
+  margin-bottom: 1rem;
+}
+
+.main--title {
+  margin: .5rem;
+}
+
+.main--ul {
+  margin: .5rem 2rem;
+}
+
+.main--li {
+  margin: 1rem;
+  font-size: large;
+  font-weight: 400;
+}
+
+.main--li::marker {
+  font-size: 1.4rem;
+  color: #fbdc61;
 }
 
 .garf {

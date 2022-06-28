@@ -7,7 +7,7 @@ export default function Nav() {
                 <img src={require('../garf.png')} className='garf' alt='cigarfield'></img>
                 <h3>Cool Guys Capital</h3>
             </div>
-            <h4>blamming™</h4>
+            <h4 className='motto'>blamming™</h4>
         </nav>
     )
 }

@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Initial Build of the CG Cap Table
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
